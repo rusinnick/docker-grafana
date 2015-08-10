@@ -1,10 +1,11 @@
-#Minimal grafana docker image
+# Minimal grafana docker image
 
 Build based on [alpine:3.2](https://registry.hub.docker.com/_/alpine/)
 
-Lightweight, 30MB only!
+Super lightweigh!
+Include additional [plugins](https://github.com/grafana/grafana-plugins)
 
-##Running your image
+## Running your image
 
 Start your image binding the external port 3000.
 
@@ -12,7 +13,7 @@ Start your image binding the external port 3000.
 docker run -i -p 3000:3000 rusn/grafana
 ```
 
-##Configuring your image
+## Configuring your image
 
 All options can be overriden using environment variables:
 
