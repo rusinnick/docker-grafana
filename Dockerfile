@@ -4,7 +4,7 @@ MAINTAINER Nikita Rusin <rusinnick@gmail.com>
 
 ENV GOPATH=/go                           \
     REPO_PATH=github.com/grafana/grafana \
-    REPO_TAG=v2.0.2
+    REPO_TAG=v2.1.0
 
 RUN apk add --update --virtual build-deps                      \
                  go nodejs build-base git mercurial            \
